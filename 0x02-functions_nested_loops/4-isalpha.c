@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * _islower - is a char lower case?
+ *_islower - is a char lower case?
  *
- ** @c: ascii value to be tested
+ *@c: ascii value to be tested
  *
- ** Return: 1 if c is lowercase
+ *Return: 1 if c is lowercase
  *
- * 0 otherwise
- *
+ *0 otherwise
  */
 int  _islower(int c)
 
