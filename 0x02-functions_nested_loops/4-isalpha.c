@@ -1,7 +1,5 @@
 #include "main.h"
 
-
-
 /**
  * _islower - is a char lower case?
  *
@@ -12,7 +10,6 @@
  * 0 otherwise
  *
  */
-
 int  _islower(int c)
 
 {
