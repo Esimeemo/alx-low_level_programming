@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - entry point
+ *
+ * command prints an array
+ * Return: no return value
+ */
 int main(void)
 {
 int n;
