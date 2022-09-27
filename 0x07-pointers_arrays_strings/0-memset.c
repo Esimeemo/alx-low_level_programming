@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_memset - files memory with a constant byte
+ * _memset - files memory with a constant byte
  * @s: pointing to the memory address
  * @n: number of bytes to be filled
  * @b: value to be filled
@@ -11,12 +11,10 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i = 0;
-
-	while (i < n)
+	while (n)
 	{
-		*(s + 1) = b;
-		i++;
+		s[n - 1] = b;
+		i--;
 	}
 	return (s);
 }
