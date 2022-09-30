@@ -1,5 +1,5 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - prints number of arguments within the function
