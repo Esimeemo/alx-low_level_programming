@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 	(void)argv;
 	{
-	printf("Number of arguments are: %d\n", argc);
+	printf("Number of arguments are: %d\n", argc - 1);
 	}
 	return (0);
 }
