@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 	multiplication = 1;
 	if (argc < 3)
 	{
-		print("Error\n");
+		printf("Error\n");
 		return (1);
 	}
 	for (index = 1; index < argc; index++)
