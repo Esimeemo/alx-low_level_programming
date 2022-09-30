@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include "main.h"
 
 /**
- * main - prints number of arguments within the function
+ * main - write a programme that prints number of arguments within the function
+ *
  * @argc: prints number of arguments
  * @argv: prints values of arguments
  *
@@ -13,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 (void) argv;
-printf("%ii\n", argc - 1);
+printf("%d\n", argc - 1);
 
 return (0);
 }
